@@ -1,0 +1,115 @@
+*{margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.debug{
+  background-color: rgba(57, 99, 146, 0.2);
+  border:1px dashed black;  
+} 
+
+.dflex{
+  display: flex;
+}
+
+main section:nth-child(even){
+  background-color: lightgray;
+}
+
+.container{
+  padding: 0 20px;
+  max-width: 1100px;
+  margin: 0 auto;  
+} 
+
+.bloccoheader{
+  background-color: blue; /*debug*/
+}
+
+.headertop{
+  justify-content: space-between;
+  background-color: yellow; /*debug*/
+}
+
+.paragrafo{
+  text-align: center;
+  background-color: darkorchid; /*debug*/
+}
+
+
+.buttombutt{  
+ justify-content: center;
+ display: inline; 
+}
+
+.col{
+  padding: 20px;
+  margin-bottom: 50px;
+  margin-top: 50px;    
+}
+
+main .sidebar{
+  width: 50%;  
+  background-color: lightseagreen; /*debug*/
+}
+
+main .main{
+  width: 50%;
+  background-color: pink; /*debug*/
+}
+
+.col .debug .main h2{
+  text-align: center;
+}
+
+.col .debug .main p{
+  justify-content: column;
+  text-align: center;
+}
+
+main .mainlast{
+  width: 100%;
+  justify-content: center;
+  text-align: center;  
+  background-color: rgb(18, 180, 12); /*debug*/
+}
+
+.footertot{
+  background-color: rgb(170, 76, 22); /*debug*/
+}
+
+.footertop{
+
+}
+
+.logo{
+  display: inline;   
+}
+
+.listanav{
+  justify-content: flex-end;
+  flex-wrap: wrap-reverse;  
+}
+
+.footerbot{
+  justify-content: space-between;
+  background-color: rgb(176, 204, 50); /*debug*/
+}
+
+footer .colfootleft{width: 40%;
+  background-color: rgb(36, 37, 31); /*debug*/
+}
+
+footer .colfootright{width: 15%;
+  justify-content: center;  
+  background-color: rgb(139, 18, 133); /*debug*/
+}
+
+footer .colfootright ul li{
+  list-style: none;
+}
+
