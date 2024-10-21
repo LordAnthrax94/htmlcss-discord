@@ -105,16 +105,16 @@ a:link{
   margin-right: 5px;  
 }
 
- #botwhite{
+.buttombutt#botwhite a{
   color: black;
   font-weight: bold;
- }
+}
 
- #botblack{
+.buttombutt#botblack a{
   color: white;
   font-weight: bold;
- }
-
+}
+ 
  #botwhite::before{
   content:"\2193";   
  }
@@ -161,11 +161,18 @@ main .mainlast p{
   margin-top: 10px;
 }
 
-.mainlast h4{
+.mainlast .sectionpic{  
   background-image: url(./img/stars.svg);
-  background-size: cover;
+  background-size: contain;
   font-weight: bold;
-  background-repeat: no-repeat;  
+  background-repeat: no-repeat;
+  height: 80px;
+  justify-content: center;  
+  font-size: 1.8rem;  
+}
+
+.mainlast .sectionpic h4{
+  align-self: flex-end;
 }
 
 #Scaricabutt{
@@ -177,6 +184,12 @@ main .mainlast p{
   display: inline-block;
   margin-top: 20px;
 }
+
+#Scaricabutt::before{
+  content:"\2193";
+}
+
+
 
 /* /main */
 
@@ -220,9 +233,7 @@ footer .colfootleft span{
   color: white;
 }
 
-footer .colfootleft .logo{
-
- 
+footer .colfootleft .logo{ 
   color: white;  
 }
 
