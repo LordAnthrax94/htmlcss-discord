@@ -8,17 +8,31 @@
 <body>
   <header class="debug">   
    <div class="container debug dflex headertop">    
-     <div class="logo"> Discord</div>
-     <div class="menu">Menu</div>
-     <div class="Accedi">Accedi</div>
+     <div class="logo">
+      <img src="Assets/img/logo.svg" alt="LogoDiscord">       
+     </div>
+     <div class="menu dflex">
+      <nav>
+        <ul>
+          <li>Scarica</li>
+          <li>Perché Discord</li>
+          <li>Nitro</li>
+          <li>Sicurezza</li>
+          <li>Assistenza</li>
+        </ul>
+      </nav>
+     </div>
+     <div class="Accedi"><a href="">Accedi</a></div>
    </div>
-  <div class="bloccoheader">
+  <div class="bloccoheader container dflex">
    <div class="paragrafo debug container">
     <h1 class="Titolo">Titolo paragrafo</h1>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos magni quis molestiae consequuntur animi cupiditate unde doloremque, atque temporibus debitis dolorem, possimus placeat officiis suscipit ipsum distinctio similique adipisci quibusdam?</p>
-    <div class="buttombutt dflex"><a href="">Accedi</a></div>
-    <div class="buttombutt dflex"><a href="">Apri Discord nel tuo browser</a></div>
-   </div>
+    <div class="container debug">
+     <div class="buttombutt dflex" id="botwhite"><a href="">Scarica per Mac</a></div>
+     <div class="buttombutt dflex" id="botblack"><a href="">Apri Discord nel tuo browser</a></div>
+    </div>
+  </div>
   </div>
   </header>
 
@@ -28,7 +42,7 @@
   <section class="sezionerana">
    <div class="container debug dflex">
     <div class="dflex">
-      <div class="col debug sidebar"><img src="" alt="Immagine Rana"></div>
+      <div class="col debug sidebar"><img src="./Assets/img/item1.svg" alt="Immagine Rana"></div>
       <div class="col debug main">
         <h2>Titolo sezione</h2>
         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet cum deserunt unde ullam ea quod modi ducimus reiciendis eligendi blanditiis beatae esse sequi corrupti perferendis nisi, numquam dolorem laudantium doloribus?</p>
@@ -45,7 +59,7 @@
       <div class="col debug main"><h2>Titolo sezione</h2>
         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet cum deserunt unde ullam ea quod modi ducimus reiciendis eligendi blanditiis beatae esse sequi corrupti perferendis nisi, numquam dolorem laudantium doloribus?</p>
       </div>
-      <div class="col debug sidebar"><img src="" alt="Immagine Mago"></div>      
+      <div class="col debug sidebar"><img src="./Assets/img/item2.svg" alt="Immagine Mago"></div>      
     </div>
     </div>
   </section>
@@ -55,7 +69,7 @@
   <section class="sezionelibro">
    <div class="container debug dflex">
     <div class="dflex">
-      <div class="col debug sidebar"><img src="" alt="Immagino libro"></div>
+      <div class="col debug sidebar"><img src="./Assets/img/item3.svg" alt="Immagino libro"></div>
       <div class="col debug main"><h2>Titolo sezione</h2>
         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet cum deserunt unde ullam ea quod modi ducimus reiciendis eligendi blanditiis beatae esse sequi corrupti perferendis nisi, numquam dolorem laudantium doloribus?</p>
       </div>
@@ -68,11 +82,12 @@
   <section class="sezionetec">
    <div class="container debug dflex">
     <div class="dflex">      
-      <div class="col debug mainlast">
-        <img src="" alt="Immagino tec">
+      <div class="col debug mainlast">        
+        <h3>Tecnologie affidabili per tenersi in contatto</h3>
         <div><p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit sunt voluptatem reiciendis ex minus eligendi voluptate expedita accusamus eveniet animi?</p></div>
-        <h4>Lorem ipsum dolor sit.</h4>
-        <a href="">Scarica per mec</a>
+        <img src="./Assets/img/item4-big.svg" alt="Immagino tec">
+        <div id="prontoper"><h4>Pronto per iniziare la tua avventura?</h4></div>        
+        <a id="Scaricabutt" href="">Scarica per mec</a>
       </div>
     </div>
    </div>
@@ -83,7 +98,7 @@
   <footer class="footertot debug">
    <div class="container debug dflex footertop">
      <div class="col debug colfootleft">Il tuo posto per parlare
-      <nav>Italiano</nav>
+      <span id="lang">Italiano</span>
       <div class="logo dflex">logo</div>
       <div class="logo dflex">logo</div>
       <div class="logo dflex">logo</div>
@@ -184,11 +199,10 @@
       </ul>
      </div>
     
-   </div>
-   <hr>    
+   </div>       
    <div class="container debug dflex footerbot">
-    <div class="logo"> Discord</div>
-    <div class="Registrati">Registrati</div>
+    <div class="logo"> <img src="Assets/img/logo.svg" alt="LogoDiscord"></div>
+    <div class="registrati"><a id="regbutt" href="">Registrati</a></div>
    </div>
   </footer>
   

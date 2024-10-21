@@ -7,10 +7,10 @@ body{
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-.debug{
+/*.debug{
   background-color: rgba(57, 99, 146, 0.2);
   border:1px dashed black;  
-} 
+} */
 
 .dflex{
   display: flex;
@@ -26,25 +26,78 @@ main section:nth-child(even){
   margin: 0 auto;  
 } 
 
+header{
+  background-color: rgb(37, 94, 233);
+}
+
 .bloccoheader{
-  background-color: blue; /*debug*/
+  max-width: none;
+  height: 800px;     
+  background-image: url("./img/jumbo.png"); 
+  background-size: cover;
+  text-align: center;   
 }
 
 .headertop{
+  width: 1100px;
+  height: 94px;
   justify-content: space-between;
-  background-color: yellow; /*debug*/
+  background-color: rgb(37, 94, 233);  
+  align-items: center;
+}
+
+.headertop .Accedi{ 
+ font-size: 0.8rem; 
+ padding: 10px; 
+ border: 1px solid white;
+ border-radius: 20px;
+ background-color: white;
+ font-weight: bold; 
+}
+
+.menu ul li{
+  color: white;
+  display: inline;
+  font-style: none;  
 }
 
 .paragrafo{
-  text-align: center;
-  background-color: darkorchid; /*debug*/
+  text-align: center; 
+  /*background-color: darkorchid; debug*/ 
+  align-self: center; 
+} 
+
+a:link{
+  text-decoration: none;
 }
 
-
-.buttombutt{  
- justify-content: center;
- display: inline; 
+.buttombutt{ 
+ display: inline-block;
+ justify-content: center;   
+ padding: 10px;
+ margin-top: 30px; 
+ border-radius: 20px; 
 }
+
+.buttombutt#botblack{
+  border: 1px solid black;
+  background-color: black;  
+}
+
+.buttombutt#botwhite{
+  border: 1px solid white;
+  background-color: white;  
+}
+ #botwhite{
+  color: black;
+  font-weight: bold;
+ }
+
+ #botblack{
+  color: white;
+  font-weight: bold;
+ }
+
 
 .col{
   padding: 20px;
@@ -53,33 +106,42 @@ main section:nth-child(even){
 }
 
 main .sidebar{
-  width: 50%;  
-  background-color: lightseagreen; /*debug*/
+  width: 60%;  
+  /* background-color: lightseagreen; debug */
 }
 
 main .main{
-  width: 50%;
-  background-color: pink; /*debug*/
-}
-
-.col .debug .main h2{
-  text-align: center;
-}
-
-.col .debug .main p{
-  justify-content: column;
-  text-align: center;
+  width: 40%;
+  background-color: pink; /*debug*/  
+  align-items: center;
+  justify-content: center;
 }
 
 main .mainlast{
   width: 100%;
   justify-content: center;
   text-align: center;  
-  background-color: rgb(18, 180, 12); /*debug*/
+  /* background-color: rgb(18, 180, 12); debug */
+}
+
+#prontoper{
+  background-image: url(./img/stars.svg);
+  background-size: cover;
+  font-weight: bold;
+}
+
+#Scaricabutt{
+  background-color: rgb(145, 163, 234);
+  border 1px solid rgb(145, 163, 234);
+  color: white;
+  border-radius: 20px;
+  padding: 10px;
+  display: inline-block;
+  margin-top: 20px;
 }
 
 .footertot{
-  background-color: rgb(170, 76, 22); /*debug*/
+  background-color: rgb(35, 39, 42); 
 }
 
 .footertop{
@@ -96,20 +158,51 @@ main .mainlast{
 }
 
 .footerbot{
-  justify-content: space-between;
-  background-color: rgb(176, 204, 50); /*debug*/
+ border-top: 1px solid gray;
+ padding-top: 20px;
+ justify-content: space-between;
+  /* background-color: rgb(176, 204, 50); debug */
 }
 
-footer .colfootleft{width: 40%;
-  background-color: rgb(36, 37, 31); /*debug*/
+footer .colfootleft{
+  color: rgb(121, 140, 210);
+  width: 40%;
+  /* background-color: rgb(36, 37, 31); debug */
+}
+
+footer .colfootleft .logo #lang{
+  color: white;
+}
+
+footer .colfootleft .logo{
+  color: white;
+}
+
+footer .colfootright ul{
+  color: rgb(121, 140, 210);
+}
+
+footer .colfootright ul li{
+  color: white;
 }
 
 footer .colfootright{width: 15%;
   justify-content: center;  
-  background-color: rgb(139, 18, 133); /*debug*/
+  /* background-color: rgb(139, 18, 133); debug */
 }
 
 footer .colfootright ul li{
   list-style: none;
 }
 
+.registrati{
+  background-color: rgb(145, 163, 234);
+  border 1px solid rgb(145, 163, 234);
+  color: white;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+#regbutt{
+  color: white;
+}
