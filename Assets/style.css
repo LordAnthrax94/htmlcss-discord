@@ -7,11 +7,6 @@ body{
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-/*.debug{
-  background-color: rgba(57, 99, 146, 0.2);
-  border:1px dashed black;  
-} */
-
 .dflex{
   display: flex;
 }
@@ -177,7 +172,7 @@ main .mainlast p{
 
 #Scaricabutt{
   background-color: rgb(145, 163, 234);
-  border 1px solid rgb(145, 163, 234);
+  border: 1px solid rgb(145, 163, 234);
   color: white;
   border-radius: 20px;
   padding: 10px;
@@ -187,10 +182,6 @@ main .mainlast p{
 
 .footertot{
   background-color: rgb(35, 39, 42); 
-}
-
-.footertop{
-
 }
 
 .logo{
@@ -238,11 +229,12 @@ footer .colfootright{width: 15%;
 
 footer .colfootright ul li{
   list-style: none;
+  margin: 2px;
 }
 
 .registrati{
   background-color: rgb(145, 163, 234);
-  border 1px solid rgb(145, 163, 234);
+  border: 1px solid rgb(145, 163, 234);
   color: white;
   border-radius: 20px;
   padding: 10px;
