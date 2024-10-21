@@ -195,6 +195,15 @@ main .mainlast p{
   content:"\2193";
 }
 
+.loghi{  
+  justify-content: flex-start;
+  flex-wrap: nowrap;
+}
+
+.loghi i{
+  margin-right: 25px;
+}
+
 
 
 /* /main */
@@ -249,8 +258,8 @@ footer .colfootleft .logo #lang{
 
 .loghi{
   margin-top: 10px;
-  justify-content: space-between;
-  flex-wrap: wrap;
+  
+  
 }
 
 footer .colfootright ul{
