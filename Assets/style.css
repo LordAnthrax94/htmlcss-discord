@@ -21,6 +21,8 @@ main section:nth-child(even){
   margin: 0 auto;  
 } 
 
+/* header */
+
 header{
   background-color: rgb(37, 94, 233);
 }
@@ -54,7 +56,6 @@ header{
   align-items: center;
 }
 
-
 .headertop .Accedi{ 
  font-size: 0.8rem; 
  padding: 10px; 
@@ -73,8 +74,7 @@ header{
 }
 
 .paragrafo{
-  text-align: center; 
-  /*background-color: darkorchid; debug*/ 
+  text-align: center;   
   align-self: center; 
 } 
 
@@ -84,12 +84,10 @@ a:link{
 
 .buttombutt{ 
  display: inline-block;
- justify-content: center;   
- /* padding: 10px; */
+ justify-content: center; 
  margin-top: 30px; 
  border-radius: 23px; 
 }
-
 
 .buttombutt#botblack{
   border: 1px solid black;
@@ -98,8 +96,6 @@ a:link{
   font-size: 1.2rem;
   margin-left: 5px;
 }
-
-
 
 .buttombutt#botwhite{
   border: 1px solid white;
@@ -123,6 +119,10 @@ a:link{
   content:"\2193";   
  }
 
+ /* /header */
+
+ /* Main */
+
 .col{
   padding: 20px;
   margin-bottom: 50px;
@@ -134,8 +134,7 @@ main .sidebar{
 }
 
 main .main{
-  width: 40%;
-  /* background-color: pink; debug */    
+  width: 40%;      
   text-align: left;
   flex-direction: column; 
   justify-content: flex-start;  
@@ -143,8 +142,7 @@ main .main{
 
 main .main h2{
   font-size: 2.5rem; 
-  align-self: center;
-    
+  align-self: center;    
 }
 
 main .mainlast{
@@ -180,12 +178,12 @@ main .mainlast p{
   margin-top: 20px;
 }
 
+/* /main */
+
+/* Footer */
+
 .footertot{
   background-color: rgb(35, 39, 42); 
-}
-
-.logo{
-  display: inline;   
 }
 
 .listanav{
@@ -196,22 +194,38 @@ main .mainlast p{
 .footerbot{
  border-top: 1px solid gray;
  padding-top: 20px;
- justify-content: space-between;
-  /* background-color: rgb(176, 204, 50); debug */
+ justify-content: space-between;  
 }
 
 footer .colfootleft{
   color: rgb(121, 140, 210);
   width: 40%;
-  flex-direction: column;
+  flex-direction: column;  
 }
 
-footer .colfootleft .logo #lang{
+footer .colfootleft h4{
+  justify-content: flex-start;
+  font-size: 1.5rem;
+}
+
+footer img{
+  width: 20px;
+}
+
+footer .colfootleft span{
+  justify-content: flex-start;
+  margin-top: 20px;
   color: white;
 }
 
 footer .colfootleft .logo{
+
+ 
   color: white;  
+}
+
+footer .colfootleft .logo #lang{
+  color: white;
 }
 
 footer .colfootright ul{
@@ -223,8 +237,7 @@ footer .colfootright ul li{
 }
 
 footer .colfootright{width: 15%;
-  justify-content: center;  
-  /* background-color: rgb(139, 18, 133); debug */
+  justify-content: center;    
 }
 
 footer .colfootright ul li{
@@ -243,3 +256,5 @@ footer .colfootright ul li{
 #regbutt{
   color: white;
 }
+
+/* /footer */
